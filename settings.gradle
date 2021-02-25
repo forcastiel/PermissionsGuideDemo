@@ -1,0 +1,3 @@
+include ':permissionsguide'
+include ':app'
+rootProject.name = "PermissionsGuideDemo"
