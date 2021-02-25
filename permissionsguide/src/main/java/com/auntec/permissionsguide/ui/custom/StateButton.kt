@@ -137,7 +137,7 @@ class StateButton : AppCompatButton {
 
         //set radius
         val mRadius = a.getDimensionPixelSize(R.styleable.StateButton_state_radius, 0).toFloat()
-        mRound = a.getBoolean(R.styleable.StateButton_round, false)
+        mRound = a.getBoolean(R.styleable.StateButton_state_round, false)
         mNormalBackground!!.cornerRadius = mRadius
         mPressedBackground!!.cornerRadius = mRadius
         mUnableBackground!!.cornerRadius = mRadius
