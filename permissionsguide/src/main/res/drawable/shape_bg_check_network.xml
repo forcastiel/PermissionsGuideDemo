@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- 填充的颜色 -->
+<!--    <solid android:color="#75c233" />-->
+    <!--设置渐变-->
+    <gradient android:startColor="#5360FD"
+        android:centerColor="#008EEF"
+        android:endColor="#2FABCF"
+        android:angle="270"/>
+    <!--angle控制渐变的方向-->
+
+</shape>

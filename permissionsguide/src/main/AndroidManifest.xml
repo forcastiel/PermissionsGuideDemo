@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.auntec.permissionsguide">
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+
+<!--    <uses-permission android:name="com.vivo.permission.manage.permission.ACCESS" />-->
+
+    <application
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.auntec.permissionsguide.ui.PermissionsTipAct"
+            android:theme="@style/NoTitleDialog" />
+
+        <activity
+            android:name="com.auntec.permissionsguide.ui.PermissionsGuideAct"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.auntec.permissionsguide.ui.CheckNetworkAct"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>
